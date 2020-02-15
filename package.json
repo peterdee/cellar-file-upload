@@ -10,6 +10,7 @@
   "homepage": "https://github.com/peterdee/cellar-file-upload",
   "license": "ISC",
   "keywords": [
+    "AWS-SDK",
     "Clever Cloud",
     "Cellar",
     "Express",
