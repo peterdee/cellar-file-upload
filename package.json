@@ -1,0 +1,39 @@
+{
+  "name": "cellar-file-upload",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Peter Dyumin",
+    "url": "https://github.com/peterdee"
+  },
+  "description": "Upload files to the Clever Cloud Cellar storage",
+  "homepage": "https://github.com/peterdee/cellar-file-upload",
+  "license": "ISC",
+  "keywords": [
+    "Clever Cloud",
+    "Cellar",
+    "Express",
+    "File uploading",
+    "Node"
+  ],
+  "engines": {
+    "node": "13.8.0",
+    "npm": "6.13.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterdee/cellar-file-upload"
+  },
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.619.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
